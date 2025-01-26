@@ -1,0 +1,115 @@
+.hero{
+    width: 100vw;
+    height: 75vh;
+    background-image: url('../assets/casaHero.jpg') ;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1Hero{
+    font-weight: 900;
+    color:white;
+    font-size: 40px;
+    background-color: #1314154b;
+    border-radius: 5px;
+}
+
+.prueba{
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+}
+
+.secciones{
+    display: flex;
+    padding: 50px;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+.secciones:nth-child(3){
+    background-color: #333;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+.parrafoSobreMi{
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.h2SobreMi{
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.pSobreMi{
+    font-weight: 200;
+    
+}
+
+.spanSobreMi{
+    font-weight: 500;
+}
+
+.fotoSobreMi{
+    height: 100%;
+    width: 30%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.fotoSobreMi img {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover; 
+    object-position: center; 
+}
+
+.botonContacto{
+    border: none;
+    cursor: pointer;
+    margin-top: 5%;
+    width: 180px;
+    height: 40px;
+    border-radius: 6px;
+    color: white;
+    background-color: #1d1f20;
+    position: relative;
+    overflow: hidden;
+}
+
+.botonContacto::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #b3b18f;
+    position: absolute;
+    z-index: 1;
+    top: -40px;
+    left: 0;
+    transition: .3s ease-in-out;
+}
+.botonContacto span{
+    font-weight: 700;
+    z-index: 2;
+    position: relative;
+    transition: .3s ease all;
+}
+
+.botonContacto:hover::after{
+    top: 0;
+}
