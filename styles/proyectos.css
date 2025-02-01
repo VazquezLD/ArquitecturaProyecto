@@ -1,15 +1,67 @@
 .unProyecto{
-    width: 60%;
-    height: 200px;
+    width: 80%;
+    height: 300px;
     display: flex;
-    border-radius: 10px;
     align-items: center;
-    justify-content: center;
-    border: 1px solid honeydew;
+    justify-content: space-evenly;
+    padding: 10px;
 }
 
 .h2Proyectos{
     color: white;
     font-weight: 900;
     font-size: 30px;
+}
+
+.descripcionProyecto{
+    flex-direction: column;
+    display: flex;
+    width: 60%;
+    align-items: center;
+    background-color: aliceblue;
+    height: 100%;
+}
+
+.parrafoProyecto{
+    font-weight: 300;
+    text-align: justify;
+    max-width: 70%;
+}
+
+.fotoProyecto{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: aliceblue;
+}
+
+.imagenProyecto{
+    height: 70%;
+}
+
+.tituloProyecto{
+    font-weight: 800;
+    font-size: 25px;
+    border-bottom: 2px solid #333;
+}
+
+.slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.dot{
+    background-color: rgb(199, 199, 199);
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
 }
