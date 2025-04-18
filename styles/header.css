@@ -31,12 +31,13 @@ header{
     display: flex;
     gap: 20px;
     font-weight: 400;
+    margin: 0 auto;
     padding: 10px;
 }
 
-.navLink{
-     
+.navLink a{
     font-size: 18px;
+    color: white;
 }
 
 .navLink a{
@@ -46,4 +47,5 @@ header{
 .navLink:hover{
     transform: scale(1.06);
     transition: .2s ease-in;
+    color: blueviolet;
 }

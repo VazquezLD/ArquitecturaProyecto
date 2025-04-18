@@ -1,6 +1,6 @@
 .hero{
     width: 100vw;
-    height: 75vh;
+    height: 100vh;
     background-image: url('../assets/casaHero.jpg') ;
     background-size: cover;
     background-position: center;
@@ -15,12 +15,6 @@
     font-size: 40px;
     background-color: #1314154b;
     border-radius: 5px;
-}
-
-.prueba{
-    width: 100px;
-    height: 100px;
-    background-color: rebeccapurple;
 }
 
 .secciones{
@@ -46,6 +40,7 @@
 .parrafoSobreMi{
     max-width: 40%;
     display: flex;
+    gap: 20px;
     flex-direction: column;
 }
 

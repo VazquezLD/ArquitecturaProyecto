@@ -1,5 +1,5 @@
 .unProyecto{
-    width: 80%;
+    width: 90%;
     height: 300px;
     display: flex;
     align-items: center;
@@ -25,7 +25,7 @@
 .parrafoProyecto{
     font-weight: 300;
     text-align: justify;
-    max-width: 70%;
+    max-width: 80%;
 }
 
 .fotoProyecto{
@@ -58,10 +58,32 @@
     gap: 10px;
 }
 
-.dot{
+.dot1{
     background-color: rgb(199, 199, 199);
     border-radius: 100%;
     width: 12px;
     height: 12px;
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.dot2{
+    background-color: rgb(199, 199, 199);
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.dot3{
+    background-color: rgb(199, 199, 199);
+    border-radius: 100%;
+    width: 12px;
+    height: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.activo{
+    background-color: #333;
 }
